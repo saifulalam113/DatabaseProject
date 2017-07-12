@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="NhibernateTest"
+                   namespace="NhibernateTest.Domain">
+
+	<class name="PostHistory">
+		<id name="Id"/>
+		<property name="PostHistoryTypeId" />
+		<property name="PostId" />
+		<property name="RevisionGUID" />
+		<property name="CreationDate" />
+		<property name="UserId" />
+		<property name="UserDisplayName" />
+		<property name="Comment" />
+		<property name="Text" />
+
+   
+
+
+  </class>
+
+</hibernate-mapping>
